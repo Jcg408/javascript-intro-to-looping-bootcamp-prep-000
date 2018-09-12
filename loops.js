@@ -21,13 +21,7 @@
     return "done";
   }
   function doWhileLoop(array) {
-    var i = array.length;
-    i = i-1;
-    do {
-      array.slice(i);
-    }
-    while (i > 0);
-  }
+  
   
   
   
