@@ -21,7 +21,14 @@
     return "done";
   }
   function doWhileLoop(array) {
-  
+   let i = array;
+   console.log(i);
+    do {		
+     array.length -1;
+    }
+    while (i > 0);
+    return array;
+  }
   
   
   
