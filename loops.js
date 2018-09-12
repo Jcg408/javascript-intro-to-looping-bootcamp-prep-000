@@ -24,11 +24,10 @@
    let i = array;
    console.log(i);
     do {		
-     array.length -1;
+     array.splice(1);
     }
-    while (i > 0);
-    return array;
+    while (i > 0 && array.length -1);
+	console.log (array);
+	return array;
   }
-  
-  
   
