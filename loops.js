@@ -22,7 +22,8 @@
   }
   function doWhileLoop(array) {
    let i = array;
-   do {		
+   console.log(i);
+    do {		
      array.splice(1);
     }
     while (i > 0 && array.length -1);
